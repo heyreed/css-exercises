@@ -4,5 +4,12 @@
 }
 
 .yellow-button {
+    background-color: #ebe64f;
+}
 
+.black-button,
+.yellow-button {
+    font-size: 28px;
+    font-family: Helvetica, Times New Roman, 'sans-serif';
+    padding: 8px 16px;
 }
