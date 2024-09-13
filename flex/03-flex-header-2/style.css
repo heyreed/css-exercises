@@ -30,10 +30,6 @@ body {
   gap: 16px;
 }
 
-ul {
-  padding: 0px;
-}
-
 .right-content {
   display: flex;
   justify-content: space-between;
@@ -70,4 +66,5 @@ a {
 
 ul {
   list-style-type: none;
+  padding: 0px;
 }
