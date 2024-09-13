@@ -5,6 +5,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -30,15 +32,36 @@ ul {
   padding: 0px;
   margin: 0px;
   display: flex;
-  gap: 8px;
+  gap: 12px;
 }
 
 a {
   text-decoration: none;
+  color: rgb(115, 115, 115);
 }
 
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 16px;
+  padding: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex-grow: 1;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #eee;
+}
+
+button {
+  padding: 8px 12px;
 }
