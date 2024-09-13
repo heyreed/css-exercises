@@ -57,13 +57,15 @@ a {
   display: flex;
   flex-wrap: wrap;
   padding: 48px;
+  gap: 24px;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  flex-basis: 200px;
+  flex-basis: 300px;
+  padding: 24px;
 }
 
 .content {
