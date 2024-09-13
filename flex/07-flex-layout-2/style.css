@@ -10,6 +10,11 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 900;
+  padding: 0px 16px;
 }
 
 .footer {
@@ -35,4 +40,5 @@ body {
 
 .content {
   display: flex;
+  flex-grow: 1;
 }
