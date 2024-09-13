@@ -36,10 +36,10 @@ img {
 .plants {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   gap: 52px;
 }
 
 .plant {
-  flex-basis: 200px;
+  max-width: 200px;
 }
